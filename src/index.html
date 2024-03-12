@@ -1,0 +1,176 @@
+`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        My First Web Page
+    </title>
+    <link rel="<link rel=" preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">"
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <img id="logo" alt="Jovin Logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Imgur_logo.svg/150px-Imgur_logo.svg.png"
+            height="30" />
+    </div>
+    <img src="banner.jpg" alt="website banner" width="2000" height="380" loading="lazy">
+    <h1>
+        About Tommie
+    </h1>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                Tommie is on a mission to be a web
+                developer if she is consistent enough and
+                won't give up no matter what may.
+            </p>
+            <p>
+                We are not going to give up on these offers:
+            <ol>
+                <li>
+                    <a href="https://www.linkedin.com/in/msctomnadooadyorough6a1a5830/">
+                        Full Stack Developer Bootcamp
+                    </a>
+                </li>
+                <li>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        Data Analyst Bootcamp
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" alt="Team" src="team.jpg">
+        </div>
+    </div>
+
+
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="jobs-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Garki</td>
+                <td>Abuja</td>
+                <td>₦300,000.00</td>
+                <td>Mar 3, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full stack Developer</td>
+                <td>Lekki</td>
+                <td>Lagos</td>
+                <td>₦500,000.00</td>
+                <td>Feb 1, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>Georgia</td>
+                <td>USA</td>
+                <td>$175,000.00</td>
+                <td>Dec, 22, 2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>$80,000.00</td>
+                <td>Sept 19, 2024</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form
+            id="application-form" 
+            action="https://formbold.com/s/oP2x0"
+            method="POST"
+            enctype="multipart/form-data"
+            >
+            <div class="form-group">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="Full Name" required placeholder="Tommie Anderson">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="Email Address" required placeholder="ta@example.com">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="Phone Number" required placeholder="+2348066054421">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required placeholder="day//mm//yr">
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+                <select id="position" name="Position Applied" required>
+                    <option value="">Select an option</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5"
+                    placeholder="Explain what makes you suitbale for the job...."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" Value="Submit Application">
+            </div>
+
+        </form>
+
+    </div>
+
+    <div id="footer">
+        <ul id="footer-links">
+            <li>Course</li>
+            <li>Programs</li>
+            <li>Youtube</li>
+        </ul>
+        <span class="copyright">© 2024, Tommie</span>
+    </div>
+
+</body>
+
+</html>
